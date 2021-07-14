@@ -1,0 +1,184 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "jua", sans-serif;
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: black;
+  color: white;
+  width: 100%;
+  font-size: 30px;
+  padding: 10px 20px;
+  margin-right: -4px;
+}
+.logo {
+  font-size: 40px;
+  margin-top: -2px;
+  color: red;
+}
+.logo > span {
+  margin-left: 2px;
+  color: white;
+}
+
+.최상단아이콘 {
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.동영상박스 {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.해시태그 {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 45px;
+
+  color: #0445b3;
+}
+
+.해시태그 > li {
+  margin-right: 15px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.영상제목 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  font-size: 43px;
+  font-weight: 600;
+  margin: 40px;
+  margin-top: -30px;
+}
+
+.영상제목 > i {
+  color: #35363a;
+}
+
+.조회수and게시날짜 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  font-size: 33px;
+  font-weight: 500;
+  margin: 40px;
+  margin-top: -25px;
+  color: #4d4d4d;
+}
+
+.영상정보아이콘 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  font-size: 26px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+
+.영상정보아이콘 > div {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.영상정보아이콘 i {
+  margin-bottom: 16px;
+}
+
+.유튜버박스 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid 5px #86878a;
+  border-bottom: solid 5px #86878a;
+  margin: 40px;
+  font-size: 33px;
+  font-weight: 500;
+}
+
+.유튜버박스 img {
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.유튜버정보텍스트 {
+  margin-right: 400px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.유튜버정보텍스트 > span:nth-child(1) {
+  margin-top: 5px;
+}
+
+.구독 {
+  border: #a30000 10px solid;
+  background-color: #a30000;
+  border-radius: 8%;
+  width: 15%;
+  height: 85px;
+  color: #e8e6e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 5px;
+}
+
+.다음동영상박스 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 450px;
+}
+
+.다음동영상박스 div {
+  display: flex;
+  flex-direction: row;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.다음동영상유튜브정보1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  margin-top: 5px;
+  font-size: 35px;
+}
+
+.다음동영상유튜브정보2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  margin-top: 5px;
+  font-size: 35px;
+}
+
+.다음동영상유튜브정보3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  margin-top: 5px;
+  font-size: 35px;
+}
